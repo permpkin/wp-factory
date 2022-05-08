@@ -1,0 +1,15 @@
+{
+    "schemaVersion": 1,
+    "scripts": [],
+    "styles": [],
+    "types": [],
+    "blocks": [],
+    "fields": [],
+    "taxonomies": [],
+    "settings": {
+        "theme_support": [
+            "align-wide",
+            "editor-styles"
+        ]
+    }
+}

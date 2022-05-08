@@ -1,0 +1,39 @@
+{
+  "liveSassCompile.settings.formats":[
+    // This is Default.
+    {
+        "format": "expanded",
+        "extensionName": ".css",
+        "savePathReplaceSegmentsWith": "dist",
+        "savePathSegmentKeys": [
+          "src"
+        ]
+    }
+  ],
+  "liveSassCompile.settings.forceBaseDirectory": "/public/wp-content/themes/factory",
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.showOutputWindowOn": "Error",
+  "liveSassCompile.settings.compileOnWatch": false,
+  "liveSassCompile.settings.excludeList": [
+    "/src/styles/*[!(main|admin|header|footer)].scss"
+  ],
+  "liveServer.settings.showOnStatusbar": false,
+  "runOnSave.commands": [
+    {
+        // Match scss files except names start with `_`.
+        "match": ".*\\.scs2xs$",
+        "notMatch": "[\\\\\\/]_[^\\\\\\/]*\\.scss$",
+        "command": "node-sass ${file} ${fileDirname}/${fileBasenameNoExtension}.css",
+        "runIn": "backend",
+        "runningStatusMessage": "Compiling ${fileBasename}",
+        "finishStatusMessage": "${fileBasename} compiled"
+    },
+    {
+        // Match scss files except names start with `_`.
+        "match": ".*\\.scss$",
+        "notMatch": "[\\\\\\/]_[^\\\\\\/]*\\.scss$",
+        "command": "liveSass.command.compileCurrentSass",
+        "runIn": "vscode"
+    }
+]
+}

@@ -1,0 +1,11 @@
+.DS_Store
+composer.lock
+vendor
+public/wp
+public/wp-config.php
+public/wp-content/upgrade
+public/wp-content/plugins
+public/wp-content/uploads
+public/wp-content/mu-plugins/factory-*.php
+!public/wp-content/mu-plugins/factory-config.php
+node_modules
