@@ -1,7 +1,7 @@
 <?php
  
   return [
-    'wp-factory' => [
+    '*' => [
       # Required.
       'APP_PATH' => __DIR__,
       'APP_THEME' => 'factory',
