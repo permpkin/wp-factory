@@ -27,7 +27,7 @@
   ],
   "require": {
     "itsgoingd/clockwork": "^5.1",
-    "johnpbloch/wordpress": "5.9",
+    "johnpbloch/wordpress": "6.0",
     "permpkin/wp-factory-plugin": "dev-master"
   },
   "config": {
