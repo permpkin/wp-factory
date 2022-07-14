@@ -2,6 +2,8 @@
 
 Boilerplate project for easier management of a wordpress project.
 
+![Dashboard Preview](.github/preview.png?raw=true "Preview")
+
 # Requires
 - [Composer](https://getcomposer.org/)
 - [Laravel Valet](https://laravel.com/docs/9.x/valet)
