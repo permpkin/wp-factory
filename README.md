@@ -20,6 +20,10 @@ if you haven't already, tell valet to use php@7.4 `valet use php@7.4` ( this is 
 
 Run `composer install` to install php and various other package dependencies.
 
+Run `npm i` or `yarn` to install node dependencies.
+
+to compile blocks and stylesheets run `npm start` to build and watch the src folder.
+
 # Usage
 To access WP Factory open your sites local url (e.g. `example.com.test`), you can either login to the Wordpress admin and click the "Wordpress Factory" link found in the admin bar, or simply head to `example.com.test/wp/factory`.
 
