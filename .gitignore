@@ -3,6 +3,8 @@ composer.lock
 vendor
 public/wp
 public/wp-config.php
+public/wp-content/db.php
+public/wp-content/database
 public/wp-content/upgrade
 public/wp-content/plugins
 public/wp-content/uploads
